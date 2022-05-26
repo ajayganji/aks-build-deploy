@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'e6d423aa-bdb9-4ede-8d45-d6601c568830'
   imageRepository: 'devakswebapp'
   containerRegistry: 'devaksdemo.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'devaksdemo630e-auth'
 
